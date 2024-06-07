@@ -11,7 +11,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "SimoBank",
-  description: "Your one stop banking home",
+  description: "Your one stop banking platform.",
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${ibmPlexSerif.variable}`}>
+      <body className={`${inter.variable} ${ibmPlexSerif.variable}`}>
         {children}
       </body>
     </html>
