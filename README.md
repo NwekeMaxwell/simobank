@@ -7,3 +7,5 @@ npx shadcn-ui@latest init
 npx shadcn-ui@latest add button
 
 ```
+- appwrite auth and db
+- sentry security
