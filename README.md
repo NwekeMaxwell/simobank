@@ -7,5 +7,8 @@ npx shadcn-ui@latest init
 npx shadcn-ui@latest add button
 
 ```
-- appwrite auth and db
-- sentry security
++ Libraries used
+- appwrite for auth and db
+- sentry for security and debugging
+- plaid for banking functionalities, securely connect bank accounts to third party applications
+- dwolla a payment processor for transfering funds
